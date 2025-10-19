@@ -1,0 +1,12 @@
+name: O'zbekcha
+welcome: "👋 Salom! Men matningizdagi yozuv xatolarini tekshiraman.\n\n📝 Lotin va Kirill yozuvidagi xatolarni aniqlay olaman.\n\n📌 Matningizni kiriting va men xatolarni ko‘rsataman!"
+i_joined: A'zo bo'ldim 🙋‍♂️
+help: |
+  <b>Bot</b> matndagi xatoliklarni topishga yordam beradi.
+get_started: Matndagi xatoliklarni aniqlash uchun, botga xabar yuboring
+language: Iltimos, tilni tanlang.
+language_selected: <b>Bot</b> endi o'zbekchada gaplashadi.
+mistakes: Xatoliklar
+no_mistakes: Xatoliklar mavjud emas
+no_suggestion: variant topilmadi
+language_error: Iltimos faqat lotin alifbosidagi harflarni yuboring!!!\nYoki /language buyru'g'i orqali tilni o'zgartiring.
