@@ -1,24 +1,36 @@
-# Telegram bot starter based on [grammY](https://grammy.dev)
+# 🇺🇿 Uzbek Spell Checker Bot
 
-Please, enjoy this starter template for Telegram bots based on [grammY](https://grammy.dev). It includes most common middlewares, MongoDB integration, language picker and internationalization and shows basic encapsulation techniques used by me.
+A Telegram bot that checks spelling errors in **Uzbek (both Latin and Cyrillic)** texts.  
+Built using **Node.js** and **grammY**, it uses the [uz-hunspell](https://github.com/u2b3k/uz-hunspell) dictionaries for accurate typo detection.
 
-# Installation and local launch
+---
 
-1. Clone this repo: `git clone https://github.com/Borodutch/telegram-bot-starter`
-2. Launch the [mongo database](https://www.mongodb.com/) locally
-3. Create `.env` with the environment variables listed below
-4. Run `yarn` in the root folder
-5. Run `yarn develop`
+## ✨ Features
 
-And you should be good to go! Feel free to fork and submit pull requests. Thanks!
+- ✅ Detects typos in **Uzbek Latin** and **Cyrillic** text
+- 🧠 Suggests correct word forms from the **Hunspell** dictionary
+- 🤖 Built using [grammY](https://grammy.dev/) for smooth Telegram integration
+- 🔤 Supports both short phrases and full sentences
+- 🪶 Lightweight, fast, and accurate
 
-# Environment variables
+---
 
-- `TOKEN` — Telegram bot token
-- `MONGO` — URL of the mongo database
+## 🚀 Usage
 
-Also, please, consider looking at `.env.sample`.
+1. Open Telegram and start a chat with the bot:
+   👉 **[@SpellCheckerUzBot](https://t.me/SpellCheckerUzBot)**
 
-# License
+2. Send a message in Uzbek — either Latin or Cyrillic script.
 
-MIT — use for any purpose. Would be great if you could leave a note about the original developers. Thanks!
+3. The bot will respond with:
+   - ✅ “No typos found” — if your text is correct
+   - 🔍 Suggested corrections for each detected typo
+
+---
+
+## 🧩 Tech Stack
+
+- **Node.js**
+- **grammY** – Telegram Bot Framework
+- **uz-hunspell** – Uzbek Hunspell Dictionary
+- **fs/promises** – For efficient dictionary reading
